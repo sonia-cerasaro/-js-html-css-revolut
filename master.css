@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* CONTAINERS & LOGO */
+
 a.navbar-brand > img {
   width: 20px;
 }
@@ -16,3 +18,28 @@ a.navbar-brand > img {
   display: flex;
   justify-content: flex-end;
 }
+
+/* DROPDOWN MENU */
+
+.open>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+}
+
+/* .dropdown-menu.active {
+  display: flex;
+} */
