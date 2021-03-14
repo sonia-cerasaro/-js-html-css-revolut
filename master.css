@@ -21,10 +21,6 @@ a.navbar-brand > img {
 
 /* DROPDOWN MENU */
 
-/* .open > .dropdown-menu {
-    display: block;
-} */
-
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -38,8 +34,4 @@ a.navbar-brand > img {
     text-align: left;
     list-style: none;
     background-color: #fff;
-}
-
-.dropdown-menu.aktive {
-  display: block !important;
 }
